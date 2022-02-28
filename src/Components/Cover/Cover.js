@@ -1,6 +1,7 @@
 import React from 'react'
 import Rate from '../Rate'
 import './Cover.css'
+import { Link } from 'react-router-dom'
 
 const Cover = () => {
   return (
@@ -12,7 +13,9 @@ const Cover = () => {
         </div>
         <div className='Rate-Trailer'>
             <div className='Rating'>★★★★★</div>
-            <div className='watch-btn' id='trailer-btn'><h3>WATCH TRAILER</h3></div>
+            <Link to={`/Trailer/Your%20name`} style={{textDecoration:"none"}}>
+                <div className='watch-btn' id='trailer-btn'><h3>WATCH TRAILER</h3></div>
+            </Link>
         </div>
     </div>
   )

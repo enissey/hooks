@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import Rate from '../Rate'
 import "./MovieCard.css"
 
@@ -27,9 +28,11 @@ const MovieCard = ({ movie }) => {
                     </div>
                     <div className='mr-grid action-row'>
                         <div className='col2'>
+                            <Link to={`/Trailer/${movie.name}`} style={{textDecoration:"none"}}>
                             <div className='watch-btn'>
-                                <h3>WATCH TRAILER</h3>
+                                <h3 className='watch-trailer'>WATCH TRAILER</h3>
                             </div>
+                            </Link>
                         </div>
                     </div>
                 </div>

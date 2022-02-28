@@ -1,0 +1,29 @@
+.mvImage{
+    width: 15%;
+    height: 5%;
+    margin-left: 5%;
+}
+
+.descrpt{
+    display: flex;
+    margin-top: 2%;
+}
+.descrp{
+    color: gray;
+    flex-wrap: wrap;
+    margin-left: 10px;
+}
+.btnn{
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.vid{
+    margin-left: 25%;
+    margin-top: 2%;
+}
+.date{
+    color: gray;
+    margin-left: 10px;
+}
+

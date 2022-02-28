@@ -101,7 +101,7 @@ body {
     border: 1px solid #fe4141;
     border-radius: 5px;
     padding: 4px;
-    width: 120px;
+    width: 140px;
     cursor: pointer;
   }
   .watch-btn:hover{
@@ -248,5 +248,9 @@ body {
   }
   .col6rest {
     width: 80.3333333333%;
+  }
+
+  .watch-trailer{
+    text-decoration: none;
   }
   
